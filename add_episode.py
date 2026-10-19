@@ -27,16 +27,21 @@ def run(cmd):
 
 
 def main():
-    ap = argparse.ArgumentParser()
+    ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("audio")
     ap.add_argument("--slug", required=True, help="filename stem, e.g. 2026-10-19-paper-name")
     ap.add_argument("--title", required=True)
     ap.add_argument("--description", required=True)
     ap.add_argument("--pubdate", default=datetime.now().astimezone().isoformat(timespec="seconds"))
     ap.add_argument("--bitrate", default="80k", help="mp3 bitrate when compressing (64k-96k)")
+    ap.add_argument("--task-id", help="PaperCast task identity stored in the sidecar")
     ap.add_argument("--no-push", action="store_true")
     ap.add_argument("--force", action="store_true", help="overwrite an existing episode with the same slug")
     a = ap.parse_args()
+
+    for field in ("title", "description"):
+        if re.search(r"[\u3000-\u9fff\uff00-\uffef]", getattr(a, field)):
+            ap.error(f"English-only feed: CJK found in --{field}; nothing copied")
 
     if not re.fullmatch(r"[a-z0-9][a-z0-9-]{2,100}", a.slug):
         raise SystemExit("--slug must be lowercase letters/digits/hyphens, e.g. 2026-10-19-paper-name")
@@ -65,6 +70,8 @@ def main():
         shutil.copy2(src, dest)
 
     meta = {"title": a.title, "description": a.description, "pubDate": a.pubdate, "guid": f"papercast-{a.slug}"}
+    if a.task_id:
+        meta["task_id"] = a.task_id
     dest.with_suffix(".json").write_text(json.dumps(meta, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     run(["python3", "gen_rss.py"])
     side = dest.with_suffix(".json")

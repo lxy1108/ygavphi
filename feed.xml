@@ -3,7 +3,7 @@
   <channel>
     <title>PaperCast</title>
     <link>https://lxy1108.github.io/ygavphi/</link>
-    <description>PaperCast：学术论文英文深度技术解读播客（English technical deep dives into research papers）。</description>
+    <description>PaperCast: English technical deep-dive podcasts on research papers.</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <image>
@@ -11,13 +11,13 @@
       <title>PaperCast</title>
       <link>https://lxy1108.github.io/ygavphi/</link>
     </image>
-    <language>zh-cn</language>
-    <lastBuildDate>Mon, 19 Oct 2026 19:46:16 +0000</lastBuildDate>
+    <language>en</language>
+    <lastBuildDate>Mon, 19 Oct 2026 19:58:24 +0000</lastBuildDate>
     <itunes:author>PaperCast</itunes:author>
     <itunes:category text="Science"/>
     <itunes:image href="https://lxy1108.github.io/ygavphi/cover.jpg"/>
     <itunes:explicit>no</itunes:explicit>
-    <itunes:summary>PaperCast：学术论文英文深度技术解读播客（English technical deep dives into research papers）。</itunes:summary>
+    <itunes:summary>PaperCast: English technical deep-dive podcasts on research papers.</itunes:summary>
     <item>
       <title>Harness^2: Recursive Agent Harnessing for an Open World</title>
       <description>Harness^2 improves frozen-model agents on unseen tasks by contrasting executions of proposed harness edits, composing supported changes, and retaining reusable refinement experience to guide future tasks without ground-truth feedback during adaptation. English two-host technical deep dive (NotebookLM). Paper: Ruiyao Xu et al., arXiv:2610.14224v1 — https://arxiv.org/abs/2610.14224v1</description>

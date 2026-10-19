@@ -8,6 +8,7 @@ Falls back to filename + file mtime. GUID = base URL + encoded filename
 """
 import json
 import os
+import re
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -23,13 +24,21 @@ MIME = {".mp3": "audio/mpeg", ".m4a": "audio/x-m4a"}
 
 CHANNEL = {
     "title": "PaperCast",
-    "description": "PaperCast：学术论文英文深度技术解读播客（English technical deep dives into research papers）。",
-    "language": "zh-cn",
+    "description": "PaperCast: English technical deep-dive podcasts on research papers.",
+    "language": "en",
     "author": "PaperCast",
     "category": "Science",
     "owner_name": "PaperCast",
     "owner_email": os.environ.get("PODCAST_OWNER_EMAIL", ""),  # optional; public if set
 }
+
+
+CJK = re.compile(r"[\u3000-\u9fff\uff00-\uffef]")
+
+
+def require_english(value, field):
+    if CJK.search(str(value)):
+        raise ValueError(f"English-only feed: CJK found in {field}")
 
 
 def fmt_duration(seconds: float) -> str:
@@ -46,6 +55,9 @@ def load_meta(path: Path) -> dict:
             pub = pub.replace(tzinfo=timezone.utc)
     else:
         pub = datetime.fromtimestamp(path.stat().st_mtime, tz=timezone.utc)
+    for field in ("title", "description", "guid"):
+        require_english(meta.get(field) or "", f"{side}: {field}")
+    require_english(path.stem, f"{path}: filename")
     return {
         "title": meta.get("title") or path.stem.replace("-", " ").replace("_", " "),
         "description": meta.get("description") or path.stem,
@@ -55,6 +67,9 @@ def load_meta(path: Path) -> dict:
 
 
 def main() -> int:
+    for field, value in CHANNEL.items():
+        require_english(value, f"{__file__}: channel.{field}")
+    require_english(BASE_URL, f"{__file__}: base_url")
     fg = FeedGenerator()
     fg.load_extension("podcast")
     fg.title(CHANNEL["title"])
@@ -97,4 +112,7 @@ def main() -> int:
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    try:
+        sys.exit(main())
+    except ValueError as exc:
+        sys.exit(str(exc))
