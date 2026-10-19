@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>PaperCast</title>
+    <link>https://lxy1108.github.io/ygavphi/</link>
+    <description>PaperCast：学术论文英文深度技术解读播客（English technical deep dives into research papers）。</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <image>
+      <url>https://lxy1108.github.io/ygavphi/cover.jpg</url>
+      <title>PaperCast</title>
+      <link>https://lxy1108.github.io/ygavphi/</link>
+    </image>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 19 Oct 2026 19:45:12 +0000</lastBuildDate>
+    <itunes:author>PaperCast</itunes:author>
+    <itunes:category text="Science"/>
+    <itunes:image href="https://lxy1108.github.io/ygavphi/cover.jpg"/>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:summary>PaperCast：学术论文英文深度技术解读播客（English technical deep dives into research papers）。</itunes:summary>
+    <item>
+      <title>Harness^2: Recursive Agent Harnessing for an Open World</title>
+      <description>Harness^2 improves frozen-model agents on unseen tasks by contrasting executions of proposed harness edits, composing supported changes, and retaining reusable refinement experience to guide future tasks without ground-truth feedback during adaptation. English two-host technical deep dive (NotebookLM). Paper: Ruiyao Xu et al., arXiv:2610.14224v1 — https://arxiv.org/abs/2610.14224v1</description>
+      <guid isPermaLink="false">https://lxy1108.github.io/ygavphi/audio/2026-10-19-harness2-recursive-agent-harnessing.m4a</guid>
+      <enclosure url="https://lxy1108.github.io/ygavphi/audio/2026-10-19-harness2-recursive-agent-harnessing.m4a" length="28734081" type="audio/x-m4a"/>
+      <pubDate>Mon, 19 Oct 2026 23:58:00 +0800</pubDate>
+      <itunes:duration>00:39:19</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:summary>Harness^2 improves frozen-model agents on unseen tasks by contrasting executions of proposed harness edits, composing supported changes, and retaining reusable refinement experience to guide future tasks without ground-truth feedback during adaptation. English two-host technical deep dive (NotebookLM). Paper: Ruiyao Xu et al., arXiv:2610.14224v1 — https://arxiv.org/abs/2610.14224v1</itunes:summary>
+    </item>
+  </channel>
+</rss>

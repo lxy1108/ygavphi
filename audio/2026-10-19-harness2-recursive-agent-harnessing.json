@@ -1,0 +1,5 @@
+{
+  "title": "Harness^2: Recursive Agent Harnessing for an Open World",
+  "description": "Harness^2 improves frozen-model agents on unseen tasks by contrasting executions of proposed harness edits, composing supported changes, and retaining reusable refinement experience to guide future tasks without ground-truth feedback during adaptation. English two-host technical deep dive (NotebookLM). Paper: Ruiyao Xu et al., arXiv:2610.14224v1 — https://arxiv.org/abs/2610.14224v1",
+  "pubDate": "2026-10-19T23:58:00+08:00"
+}
