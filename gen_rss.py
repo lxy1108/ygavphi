@@ -4,7 +4,7 @@
 Per-episode metadata: optional sidecar audio/<filename-stem>.json with keys
   title, description, pubDate (ISO 8601, e.g. 2026-10-19T23:58:00+08:00)
 Falls back to filename + file mtime. GUID = base URL + encoded filename
-(isPermaLink=false), so re-runs never duplicate episodes.
+(isPermaLink=false) unless the sidecar sets "guid"; re-runs never duplicate episodes.
 """
 import json
 import os
@@ -50,6 +50,7 @@ def load_meta(path: Path) -> dict:
         "title": meta.get("title") or path.stem.replace("-", " ").replace("_", " "),
         "description": meta.get("description") or path.stem,
         "pub": pub,
+        "guid": meta.get("guid"),
     }
 
 
@@ -84,7 +85,7 @@ def main() -> int:
         fe.title(meta["title"])
         fe.description(meta["description"])
         fe.podcast.itunes_summary(meta["description"])
-        fe.guid(url, permalink=False)
+        fe.guid(meta["guid"] or url, permalink=False)
         fe.pubDate(pub)
         fe.enclosure(url, str(p.stat().st_size), MIME[p.suffix.lower()])
         fe.podcast.itunes_duration(fmt_duration(dur))
