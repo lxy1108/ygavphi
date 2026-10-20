@@ -1,0 +1,7 @@
+{
+  "title": "PPG-Bench: A Unified Benchmark for PPG Foundation Models",
+  "description": "PPG-Bench standardizes evaluation of five PPG foundation models across diverse datasets and adaptation regimes, finding that their released representations often fail to beat simple physiological features or a generic time-series model. English two-host technical deep dive (NotebookLM). Paper: Arvasu Kulkarni et al., arXiv:2610.13435v1 — https://arxiv.org/abs/2610.13435v1",
+  "pubDate": "2026-10-20T12:02:06+08:00",
+  "guid": "papercast-2026-10-20-ppg-bench-unified-benchmark-ppg",
+  "task_id": "pc-20261020-115210-2e6c0218"
+}

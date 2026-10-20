@@ -12,12 +12,22 @@
       <link>https://lxy1108.github.io/ygavphi/</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Mon, 19 Oct 2026 19:58:24 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 04:02:56 +0000</lastBuildDate>
     <itunes:author>PaperCast</itunes:author>
     <itunes:category text="Science"/>
     <itunes:image href="https://lxy1108.github.io/ygavphi/cover.jpg"/>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>PaperCast: English technical deep-dive podcasts on research papers.</itunes:summary>
+    <item>
+      <title>PPG-Bench: A Unified Benchmark for PPG Foundation Models</title>
+      <description>PPG-Bench standardizes evaluation of five PPG foundation models across diverse datasets and adaptation regimes, finding that their released representations often fail to beat simple physiological features or a generic time-series model. English two-host technical deep dive (NotebookLM). Paper: Arvasu Kulkarni et al., arXiv:2610.13435v1 — https://arxiv.org/abs/2610.13435v1</description>
+      <guid isPermaLink="false">papercast-2026-10-20-ppg-bench-unified-benchmark-ppg</guid>
+      <enclosure url="https://lxy1108.github.io/ygavphi/audio/2026-10-20-ppg-bench-unified-benchmark-ppg.m4a" length="17425695" type="audio/x-m4a"/>
+      <pubDate>Tue, 20 Oct 2026 12:02:06 +0800</pubDate>
+      <itunes:duration>00:23:51</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:summary>PPG-Bench standardizes evaluation of five PPG foundation models across diverse datasets and adaptation regimes, finding that their released representations often fail to beat simple physiological features or a generic time-series model. English two-host technical deep dive (NotebookLM). Paper: Arvasu Kulkarni et al., arXiv:2610.13435v1 — https://arxiv.org/abs/2610.13435v1</itunes:summary>
+    </item>
     <item>
       <title>Harness^2: Recursive Agent Harnessing for an Open World</title>
       <description>Harness^2 improves frozen-model agents on unseen tasks by contrasting executions of proposed harness edits, composing supported changes, and retaining reusable refinement experience to guide future tasks without ground-truth feedback during adaptation. English two-host technical deep dive (NotebookLM). Paper: Ruiyao Xu et al., arXiv:2610.14224v1 — https://arxiv.org/abs/2610.14224v1</description>
