@@ -12,12 +12,22 @@
       <link>https://lxy1108.github.io/ygavphi/</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Tue, 20 Oct 2026 04:02:56 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 15:45:24 +0000</lastBuildDate>
     <itunes:author>PaperCast</itunes:author>
     <itunes:category text="Science"/>
     <itunes:image href="https://lxy1108.github.io/ygavphi/cover.jpg"/>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>PaperCast: English technical deep-dive podcasts on research papers.</itunes:summary>
+    <item>
+      <title>Generalist vs Specialist Time Series Foundation Models: Investigating Potential Emergent Behaviors in Assessing Human Health Using PPG Signals</title>
+      <description>Across a broad PPG benchmark, MOMENT offers stronger classification and regression domain transfer, while PPG-GPT wins more regression comparisons after adaptation, with neither consistently outperforming simple clinical baselines. English two-host technical deep dive (NotebookLM). Paper: Saurabh Kataria et al., arXiv:2510.14254v1 — https://arxiv.org/abs/2510.14254v1</description>
+      <guid isPermaLink="false">papercast-2026-10-20-generalist-vs-specialist-time-series</guid>
+      <enclosure url="https://lxy1108.github.io/ygavphi/audio/2026-10-20-generalist-vs-specialist-time-series.m4a" length="37999991" type="audio/x-m4a"/>
+      <pubDate>Tue, 20 Oct 2026 23:45:07 +0800</pubDate>
+      <itunes:duration>00:00:00</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:summary>Across a broad PPG benchmark, MOMENT offers stronger classification and regression domain transfer, while PPG-GPT wins more regression comparisons after adaptation, with neither consistently outperforming simple clinical baselines. English two-host technical deep dive (NotebookLM). Paper: Saurabh Kataria et al., arXiv:2510.14254v1 — https://arxiv.org/abs/2510.14254v1</itunes:summary>
+    </item>
     <item>
       <title>PPG-Bench: A Unified Benchmark for PPG Foundation Models</title>
       <description>PPG-Bench standardizes evaluation of five PPG foundation models across diverse datasets and adaptation regimes, finding that their released representations often fail to beat simple physiological features or a generic time-series model. English two-host technical deep dive (NotebookLM). Paper: Arvasu Kulkarni et al., arXiv:2610.13435v1 — https://arxiv.org/abs/2610.13435v1</description>

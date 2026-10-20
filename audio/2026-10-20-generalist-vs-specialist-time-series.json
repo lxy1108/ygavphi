@@ -1,0 +1,7 @@
+{
+  "title": "Generalist vs Specialist Time Series Foundation Models: Investigating Potential Emergent Behaviors in Assessing Human Health Using PPG Signals",
+  "description": "Across a broad PPG benchmark, MOMENT offers stronger classification and regression domain transfer, while PPG-GPT wins more regression comparisons after adaptation, with neither consistently outperforming simple clinical baselines. English two-host technical deep dive (NotebookLM). Paper: Saurabh Kataria et al., arXiv:2510.14254v1 — https://arxiv.org/abs/2510.14254v1",
+  "pubDate": "2026-10-20T23:45:07+08:00",
+  "guid": "papercast-2026-10-20-generalist-vs-specialist-time-series",
+  "task_id": "pc-20261020-233332-c7caa887"
+}
