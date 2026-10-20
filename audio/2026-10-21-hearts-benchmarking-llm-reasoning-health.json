@@ -1,0 +1,7 @@
+{
+  "title": "HEARTS: Benchmarking LLM Reasoning on Health Time Series",
+  "description": "HEARTS benchmarks code-using language-model agents across diverse physiological time-series tasks and finds that strong general reasoning scores do not reliably translate into accurate, data-grounded temporal analysis. English two-host technical deep dive (NotebookLM). Paper: Sirui Li et al., arXiv:2603.06638v3 — https://arxiv.org/abs/2603.06638v3",
+  "pubDate": "2026-10-21T07:22:01+08:00",
+  "guid": "papercast-2026-10-21-hearts-benchmarking-llm-reasoning-health",
+  "task_id": "pc-20261021-000026-72311052"
+}

@@ -12,12 +12,22 @@
       <link>https://lxy1108.github.io/ygavphi/</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Tue, 20 Oct 2026 15:45:24 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 23:22:22 +0000</lastBuildDate>
     <itunes:author>PaperCast</itunes:author>
     <itunes:category text="Science"/>
     <itunes:image href="https://lxy1108.github.io/ygavphi/cover.jpg"/>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>PaperCast: English technical deep-dive podcasts on research papers.</itunes:summary>
+    <item>
+      <title>HEARTS: Benchmarking LLM Reasoning on Health Time Series</title>
+      <description>HEARTS benchmarks code-using language-model agents across diverse physiological time-series tasks and finds that strong general reasoning scores do not reliably translate into accurate, data-grounded temporal analysis. English two-host technical deep dive (NotebookLM). Paper: Sirui Li et al., arXiv:2603.06638v3 — https://arxiv.org/abs/2603.06638v3</description>
+      <guid isPermaLink="false">papercast-2026-10-21-hearts-benchmarking-llm-reasoning-health</guid>
+      <enclosure url="https://lxy1108.github.io/ygavphi/audio/2026-10-21-hearts-benchmarking-llm-reasoning-health.m4a" length="43889489" type="audio/x-m4a"/>
+      <pubDate>Wed, 21 Oct 2026 07:22:01 +0800</pubDate>
+      <itunes:duration>00:00:00</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:summary>HEARTS benchmarks code-using language-model agents across diverse physiological time-series tasks and finds that strong general reasoning scores do not reliably translate into accurate, data-grounded temporal analysis. English two-host technical deep dive (NotebookLM). Paper: Sirui Li et al., arXiv:2603.06638v3 — https://arxiv.org/abs/2603.06638v3</itunes:summary>
+    </item>
     <item>
       <title>Generalist vs Specialist Time Series Foundation Models: Investigating Potential Emergent Behaviors in Assessing Human Health Using PPG Signals</title>
       <description>Across a broad PPG benchmark, MOMENT offers stronger classification and regression domain transfer, while PPG-GPT wins more regression comparisons after adaptation, with neither consistently outperforming simple clinical baselines. English two-host technical deep dive (NotebookLM). Paper: Saurabh Kataria et al., arXiv:2510.14254v1 — https://arxiv.org/abs/2510.14254v1</description>
