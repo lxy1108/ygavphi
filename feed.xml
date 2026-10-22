@@ -12,12 +12,22 @@
       <link>https://lxy1108.github.io/ygavphi/</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Tue, 20 Oct 2026 23:22:22 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 23:41:11 +0000</lastBuildDate>
     <itunes:author>PaperCast</itunes:author>
     <itunes:category text="Science"/>
     <itunes:image href="https://lxy1108.github.io/ygavphi/cover.jpg"/>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>PaperCast: English technical deep-dive podcasts on research papers.</itunes:summary>
+    <item>
+      <title>The anatomy of a personal health agent</title>
+      <description>A personal health agent coordinates data analysis, health expertise and coaching to improve evaluated conversational support over single-agent and parallel-agent baselines, without establishing long-term health benefits. English two-host technical deep dive (NotebookLM). Paper: Heydari, A. Ali et al., 10.1038/s41586-026-11161-8Version of record, 2026-10-21 — https://doi.org/10.1038/s41586-026-11161-8</description>
+      <guid isPermaLink="false">papercast-2026-10-23-anatomy-personal-health-agent</guid>
+      <enclosure url="https://lxy1108.github.io/ygavphi/audio/2026-10-23-anatomy-personal-health-agent.m4a" length="50101078" type="audio/x-m4a"/>
+      <pubDate>Fri, 23 Oct 2026 07:41:03 +0800</pubDate>
+      <itunes:duration>00:00:00</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:summary>A personal health agent coordinates data analysis, health expertise and coaching to improve evaluated conversational support over single-agent and parallel-agent baselines, without establishing long-term health benefits. English two-host technical deep dive (NotebookLM). Paper: Heydari, A. Ali et al., 10.1038/s41586-026-11161-8Version of record, 2026-10-21 — https://doi.org/10.1038/s41586-026-11161-8</itunes:summary>
+    </item>
     <item>
       <title>HEARTS: Benchmarking LLM Reasoning on Health Time Series</title>
       <description>HEARTS benchmarks code-using language-model agents across diverse physiological time-series tasks and finds that strong general reasoning scores do not reliably translate into accurate, data-grounded temporal analysis. English two-host technical deep dive (NotebookLM). Paper: Sirui Li et al., arXiv:2603.06638v3 — https://arxiv.org/abs/2603.06638v3</description>
