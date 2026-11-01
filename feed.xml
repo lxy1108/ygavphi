@@ -12,12 +12,22 @@
       <link>https://lxy1108.github.io/ygavphi/</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Thu, 22 Oct 2026 23:41:11 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 09:50:34 +0000</lastBuildDate>
     <itunes:author>PaperCast</itunes:author>
     <itunes:category text="Science"/>
     <itunes:image href="https://lxy1108.github.io/ygavphi/cover.jpg"/>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>PaperCast: English technical deep-dive podcasts on research papers.</itunes:summary>
+    <item>
+      <title>Accurate predictions on small data with a tabular foundation model</title>
+      <description>TabPFN learns a tabular prediction algorithm from synthetic datasets and achieves strong classification and regression results on small real-world tables through in-context learning, with fast fitting but important limits on scale, inference latency, and reproducibility. English two-host technical deep dive (NotebookLM). Paper: Noah Hollmann et al., 10.1038/s41586-024-08328-6Version of record — https://doi.org/10.1038/s41586-024-08328-6</description>
+      <guid isPermaLink="false">papercast-2026-11-01-accurate-predictions-small-data-tabular</guid>
+      <enclosure url="https://lxy1108.github.io/ygavphi/audio/2026-11-01-accurate-predictions-small-data-tabular.m4a" length="49492105" type="audio/x-m4a"/>
+      <pubDate>Sun, 01 Nov 2026 17:50:17 +0800</pubDate>
+      <itunes:duration>00:00:00</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:summary>TabPFN learns a tabular prediction algorithm from synthetic datasets and achieves strong classification and regression results on small real-world tables through in-context learning, with fast fitting but important limits on scale, inference latency, and reproducibility. English two-host technical deep dive (NotebookLM). Paper: Noah Hollmann et al., 10.1038/s41586-024-08328-6Version of record — https://doi.org/10.1038/s41586-024-08328-6</itunes:summary>
+    </item>
     <item>
       <title>The anatomy of a personal health agent</title>
       <description>A personal health agent coordinates data analysis, health expertise and coaching to improve evaluated conversational support over single-agent and parallel-agent baselines, without establishing long-term health benefits. English two-host technical deep dive (NotebookLM). Paper: Heydari, A. Ali et al., 10.1038/s41586-026-11161-8Version of record, 2026-10-21 — https://doi.org/10.1038/s41586-026-11161-8</description>

@@ -1,0 +1,7 @@
+{
+  "title": "Accurate predictions on small data with a tabular foundation model",
+  "description": "TabPFN learns a tabular prediction algorithm from synthetic datasets and achieves strong classification and regression results on small real-world tables through in-context learning, with fast fitting but important limits on scale, inference latency, and reproducibility. English two-host technical deep dive (NotebookLM). Paper: Noah Hollmann et al., 10.1038/s41586-024-08328-6Version of record — https://doi.org/10.1038/s41586-024-08328-6",
+  "pubDate": "2026-11-01T17:50:17+08:00",
+  "guid": "papercast-2026-11-01-accurate-predictions-small-data-tabular",
+  "task_id": "pc-20261101-164246-56325700"
+}
